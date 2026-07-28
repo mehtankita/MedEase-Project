@@ -1,0 +1,61 @@
+.navbar {
+    background: $CARD-WHITE;
+
+    .navbar-brand {
+        color: $MEDICAL-BLUE;
+        font-weight: $font-weight-bold;
+
+        img {
+            width: 22px;
+        }
+    }
+
+    .nav-link {
+        color: $TEXT-LIGHT;
+        margin: 0 map-get($spacers, 3);
+        font-weight: $font-weight-normal;
+
+        &.active,
+        &:hover {
+            color: $MEDICAL-BLUE;
+        }
+    }
+
+    .register-btn {
+        background: $MEDICAL-BLUE;
+        color: $white;
+        border-radius: $border-radius-pill;
+        padding: .7rem 2.3rem;
+
+        &:hover {
+            background: $MEDICAL-BLUE;
+            color: $white;
+        }
+    }
+}
+
+footer {
+    a {
+        color: $gray-400;
+        text-decoration: none;
+        font-size: $font-size-sm;
+    }
+
+
+    a:hover {
+        color: $MEDICAL-BLUE;
+    }
+
+    .social {
+        width: 36px;
+        height: 36px;
+        background: $MEDICAL-BLUE;
+        color: $white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+}

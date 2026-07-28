@@ -1,0 +1,97 @@
+// Links //
+$link-decoration: none;
+$link-color: #1E88E5;
+
+
+// Colors //
+$white: #FFFFFF;
+$black: #000000;
+
+$gray-100: #F8FAFC;
+$gray-200: #EEF2F6;
+$gray-300: #E2E8F0;
+$gray-400: #CCCCCC;
+$gray-500: #94A3B8;
+$gray-600: #64748B;
+$gray-700: #475569;
+$gray-800: #334155;
+$gray-900: #0F172A;
+
+
+$primary: #1E88E5;
+$secondary: #4CAF50;
+$light:$gray-400;
+$dark: $gray-900;
+
+
+// Font //
+$font-family-base: "Inter", sans-serif;
+$font-family-heading:"Spectral", serif;
+
+
+// Spacing //
+
+$spacer: 1rem;
+
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3,
+  8: $spacer * 4,
+);
+
+
+// Typography //
+$font-family-base: "Inter", sans-serif;
+
+$font-size-base: 1rem;
+$font-size-sm: .875rem;
+$font-size-lg: 1.125rem;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+
+// Navbar //
+
+$navbar-toggler-border-radius: .5rem;
+
+
+// Border Radius //
+
+$border-radius-sm: .375rem;
+$border-radius: .5rem;
+$border-radius-lg: .75rem;
+$border-radius-xl: 1rem;
+$border-radius-pill: 50rem;
+
+
+// Shadows //
+$box-shadow-sm: 0 2px 8px rgba(0,0,0,.08);
+$box-shadow: 0 6px 20px rgba(0,0,0,.12);
+$box-shadow-lg: 0 12px 32px rgba(0,0,0,.16);
+
+
+// MedEase Theme Colors //
+
+$MEDICAL-BLUE: #1E88E5;
+$HEALTH-GREEN: #4CAF50;
+$SKY-BLUE: #E3F2FD;
+$MINT-GREEN: #E8F5E9;
+$SOFT-GRAY: #F5F7FA;
+$TEXT-DARK: #1F2937;
+$TEXT-LIGHT: #6B7280;
+$CARD-WHITE: #FFFFFF;
+$WARNING: #F59E0B;
+$ERROR: #EF4444;
+$SUCCESS: #22C55E;
+$INFO: #38BDF8;
+$BORDER: #E5E7EB;
