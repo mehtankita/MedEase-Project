@@ -34,6 +34,58 @@
     }
 }
 
+.hero-image {
+    width: 450px;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+.hero-image img {
+    width: 430px;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+    border-radius: 1.25rem;
+}
+
+
+/* Top Card */
+.top-card {
+    position: absolute;
+    top: -55px;
+    right: -90px;
+    width: 250px;
+    height: 85px;
+    border-radius: 1rem;
+    z-index: 2;
+}
+
+
+/* Bottom Card */
+.bottom-card {
+    position: absolute;
+    left: -25px;
+    bottom: -5px;
+    width: 250px;
+    height: 95px;
+    border-radius: 1rem;
+    z-index: 2;
+}
+
+.learn-btn,
+.learn-btn:focus,
+.learn-btn:active,
+.learn-btn:visited {
+  color: $MEDICAL-BLUE;
+}
+
+.learn-btn:hover {
+  background-color: $MEDICAL-BLUE;
+  border-color: $MEDICAL-BLUE;
+  color: $white !important;
+}
+
 footer {
     a {
         color: $gray-400;
