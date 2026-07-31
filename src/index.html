@@ -24,6 +24,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+
     <script type="module" src="./assets/js/main.js"></script>
     <title>MedEase-Healthcare</title>
   </head>
@@ -78,7 +85,7 @@
       </nav>
     </header>
 
-    <section class="py-5">
+    <section class="py-8">
       <div class="container">
         <div class="row align-items-center gy-5">
           <!-- Left -->
@@ -92,7 +99,9 @@
                 font-weight: 500;
               "
             >
-              ★ Rated #1 choice for healthcare appointments by users
+              <i class="bi bi-star-fill me-2">
+                Rated #1 choice for healthcare appointments by users</i
+              >
             </span>
 
             <h1 class="display-2 fw-bold lh-1 mb-4">
@@ -102,12 +111,12 @@
               Better Health
             </h1>
 
-            <p class="text-clr fs-5 mb-5">
+            <p class="text-gray fs-5 mb-5">
               We're here to link you directly to improved health outcomes,<br />
               effortlessly connecting you with the care you need.
             </p>
 
-            <div class="d-flex gap-3">
+            <div class="d-flex gap-3 py-7">
               <a
                 href="#"
                 class="btn btn-primary rounded-pill px-5 py-3 text-white"
@@ -128,13 +137,13 @@
           <div class="col-lg-6">
             <div class="hero-image position-relative mx-auto">
               <!-- Top Card -->
-              <div class="card shadow-sm border-0 top-card">
+              <div class="card border-0 top-card">
                 <div
                   class="card-body d-flex align-items-center justify-content-center gap-2"
                 >
                   <h2 class="text-primary fw-bold mb-0">10K+</h2>
 
-                  <small class="text-secondary text-center">
+                  <small class="text-gray text-center">
                     Hours Of Patient<br />
                     Meetings
                   </small>
@@ -143,16 +152,16 @@
               <!-- Image -->
               <img
                 src="./assets/image/pexels-karolina-grabowska-7195432 1.svg"
-                class="img-fluid rounded-4 shadow-sm"
+                class="img-fluid rounded-4"
                 alt="Doctor"
               />
 
               <!-- Bottom Card -->
-              <div class="card shadow-sm border-0 bottom-card">
+              <div class="card border-0 bottom-card">
                 <div class="card-body text-center">
-                  <h2 class="text-primary fw-bold mb-1">2.650+</h2>
+                  <h2 class="text-primary fw-bold mb-1 text-end">2.650+</h2>
 
-                  <small class="text-secondary">
+                  <small class="text-gray text-center">
                     patients have trusted us
                   </small>
                 </div>
@@ -163,9 +172,267 @@
       </div>
     </section>
 
-    <footer class="bg-black py-5">
-      <div class="container px-lg-5">
-        <div class="row justify-content-between gy-5">
+    <section class="py-6">
+      <div class="container">
+        <!-- Heading -->
+        <div class="d-flex justify-content-between align-items-center mb-5">
+          <h2 class="fw-bold display-5">
+            Choose Doctor's
+            <span class="text-primary fst-italic fw-normal">Expertise</span>
+          </h2>
+
+          <a href="#" class="text-decoration-none text-primary fw-semibold">
+            See All
+          </a>
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Card 1 -->
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <div class="icon-circle">
+                  <img src="./assets/image/Vector (1).svg" />
+                </div>
+
+                <h3>Cardiologist</h3>
+
+                <p class="text-gray">
+                  Heart specialist focusing on <br />
+                  cardiovascular health and diseases.
+                </p>
+
+                <a href="#">Book Consultation →</a>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <div class="icon-circle">
+                  <img src="./assets/image/Brain.svg" />
+                </div>
+
+                <h3>Neurologist</h3>
+
+                <p class="text-gray">
+                  Doctor specializing in diagnosing and <br />
+                  treating nervous disorders.
+                </p>
+
+                <a href="#">Book Consultation →</a>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <div class="icon-circle">
+                  <img src="./assets/image/Ear.svg" />
+                </div>
+
+                <h3>ENT Specialist</h3>
+
+                <p class="text-gray">
+                  Doctor specializing in ear, nose and <br />
+                  throat disorders.
+                </p>
+
+                <a href="#">Book Consultation →</a>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <div class="icon-circle">
+                  <i class="bi bi-hospital"></i>
+                </div>
+
+                <h3>Dentist</h3>
+
+                <p class="text-gray">
+                  Dental treatment and oral health specialist.
+                </p>
+
+                <a href="#">Book Consultation →</a>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <div class="icon-circle">
+                  <i class="bi bi-eyedropper"></i>
+                </div>
+
+                <h3>Eye Specialist</h3>
+
+                <p class="text-gray">Complete eye care and vision treatment.</p>
+
+                <a href="#">Book Consultation →</a>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="swiper-slide">
+              <div class="doctor-card">
+                <div class="icon-circle">
+                  <i class="bi bi-bandaid-fill"></i>
+                </div>
+
+                <h3>Orthopedic</h3>
+
+                <p class="text-gray">
+                  Bone and joint specialist for all age groups.
+                </p>
+
+                <a href="#">Book Consultation →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom -->
+          <div class="d-flex justify-content-between align-items-center mt-5">
+            <button class="swiper-button-prev custom-btn">
+              <i class="bi bi-arrow-left"></i>
+            </button>
+
+            <div class="swiper-pagination"></div>
+
+            <button class="swiper-button-next custom-btn">
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-7">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Left Image -->
+          <div class="col-lg-6">
+            <img
+              src="./assets/image/pexels-rdne-stock-project-6129499 (1) 1.svg"
+              class="img-fluid rounded-4 w-100"
+              alt="Doctors"
+            />
+          </div>
+
+          <!-- Right Content -->
+          <!-- Right Content -->
+          <div class="col-lg-6">
+            <!-- Badge -->
+            <span
+              class="fw-normal badge rounded-pill text-primary bg-primary-subtle fs-6 px-4 py-3 mt-4 mb-4"
+            >
+              <i class="bi bi-star-fill me-2"></i>
+              Rated #1 for appointments with many professional doctors
+            </span>
+
+            <!-- Heading -->
+            <h2 class="fw-normal display-8 fw-medium lh-base my-4">
+              We're revolutionizing healthcare with seamless access to trusted
+              professionals, prioritizing your journey to better health.
+            </h2>
+
+            <!-- Numbers -->
+            <div class="row mt-5">
+              <div class="col-6">
+                <h1 class="text-primary display-2 fw-medium">40+</h1>
+                <p class="text-gray fs-5">Dedicated Doctors</p>
+              </div>
+
+              <div class="col-6">
+                <h1 class="text-primary display-2 fw-medium">10K+</h1>
+                <p class="text-gray fs-5">Hours of Patient Consultations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container-fluid p-0">
+        <div class="swiper heroSwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide position-relative">
+              <img
+                src="./assets/image/pexels-tima-miroshnichenko-8376309 1.svg"
+                class="img-fluid w-100"
+                alt="Banner"
+              />
+
+              <div
+                class="position-absolute top-50 start-50 translate-middle text-center text-white"
+              >
+                <h1 class="display-2 fw-semibold mb-4">
+                  Start Your Health <br />
+                  Journey Here
+                </h1>
+
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                  <a href="#" class="btn btn-primary rounded-pill px-5 py-3">
+                    Book Consultation Now
+                  </a>
+
+                  <a
+                    href="#"
+                    class="btn btn-outline-light rounded-pill px-5 py-3"
+                  >
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide position-relative">
+              <img
+                src=""
+                class="img-fluid w-100"
+                alt="Banner"
+              />
+
+              <div
+                class="position-absolute top-50 start-50 translate-middle text-center text-white"
+              >
+                <h1 class="display-2 fw-semibold mb-4">
+                  Trusted Doctors <br />
+                  Anytime
+                </h1>
+
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                  <a href="#" class="btn btn-primary rounded-pill px-5 py-3">
+                    Book Consultation
+                  </a>
+
+                  <a
+                    href="#"
+                    class="btn btn-outline-light rounded-pill px-5 py-3"
+                  >
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination mt-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black py-8">
+      <div
+        class="container-fluid"
+        style="padding-left: 60px; padding-right: 60px"
+      >
+        <div class="row justify-content-between gy-2">
           <!-- Logo -->
           <div class="col-12 col-lg-4 pe-lg-5">
             <a
@@ -237,5 +504,57 @@
         </div>
       </div>
     </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          576: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+          },
+
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".heroSwiper", {
+        loop: true,
+
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

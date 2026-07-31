@@ -43,7 +43,7 @@
 
 .hero-image img {
     width: 430px;
-    height: 340px;
+    height: 390px;
     object-fit: cover;
     display: block;
     border-radius: 1.25rem;
@@ -54,7 +54,7 @@
 .top-card {
     position: absolute;
     top: -55px;
-    right: -90px;
+    right: -105px;
     width: 250px;
     height: 85px;
     border-radius: 1rem;
@@ -65,9 +65,9 @@
 /* Bottom Card */
 .bottom-card {
     position: absolute;
-    left: -25px;
-    bottom: -5px;
-    width: 250px;
+    left: -75px;
+    bottom: -40px;
+    width: 220px;
     height: 95px;
     border-radius: 1rem;
     z-index: 2;
@@ -85,6 +85,93 @@
   border-color: $MEDICAL-BLUE;
   color: $white !important;
 }
+
+.text-gray{
+    color: #808080;
+}
+
+
+.mySwiper{
+padding-bottom:10px;
+}
+
+.doctor-card{
+background:#f8f8f8;
+border-radius:20px;
+padding:35px 25px;
+height:310px;
+}
+
+.icon-circle{
+width:56px;
+height:56px;
+background:#ececec;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+color:#2f80ed;
+font-size:30px;
+margin-bottom:25px;
+}
+
+.doctor-card h3{
+font-size:32px;
+font-weight:600;
+margin-bottom:15px;
+}
+
+.doctor-card p{
+line-height:30px;
+margin-bottom:30px;
+}
+
+.doctor-card a{
+text-decoration:none;
+
+font-weight:500;
+}
+
+.custom-btn{
+position:static!important;
+width:30px!important;
+height:30px!important;
+border-radius:50%;
+margin:0!important;
+}
+
+.swiper-button-prev{
+background:#d9d9d9;
+border-color: #d9d9d9;
+color:white!important;
+}
+
+.swiper-button-next{
+background:#2f80ed;
+border-color: #2f80ed;
+color:white!important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+font-size:18px!important;
+font-weight:bold;
+}
+
+.swiper-pagination{
+position:static!important;
+width:auto!important;
+}
+
+.swiper-pagination-bullet{
+width:7px;
+height:7px;
+}
+
+.swiper-pagination-bullet-active{
+background:#2f80ed;
+}
+
 
 footer {
     a {
